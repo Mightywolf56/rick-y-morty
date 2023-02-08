@@ -1,0 +1,15 @@
+.ResidentForm__{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+
+    
+    
+}
+
+#idLocation {
+    width: 100%;
+    height: auto;
+}
+

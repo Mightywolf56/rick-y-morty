@@ -7,7 +7,7 @@ import Pagination from './components/Pagination'
 import ResidentList from './components/ResidentList'
 import ResidentForm from './components/ResidentForm'
 import Header from './components/Header'
-import Header from './components/Header'
+
 
 
 

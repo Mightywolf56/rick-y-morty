@@ -2,11 +2,11 @@ import './App.css'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import { getRandomNumber } from './utile/handleRandom'
-import LocationInfo from './components/locationInfo'
+import LocationInfo from './components/LocationInfo'
 import Pagination from './components/Pagination'
 import ResidentList from './components/ResidentList'
 import ResidentForm from './components/ResidentForm'
-import ImagenPrincipal from './components/Header'
+import Header from './components/Header'
 import Header from './components/Header'
 
 

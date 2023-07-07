@@ -1,20 +1,39 @@
 .pagination__container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .pagination__list {
-    display: flex;
-    justify-content: space-between;
-    margin: 15px;
-    padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  padding: 15px;
+  list-style: none;
+  
 }
 
 .pagination__item {
-    display: flex;
-    justify-content: space-between;
-    color: aliceblue;
-    font-size: 20px;
-    cursor: pointer;
-    
+  color: aliceblue;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: transparent;
+  border: solid 0.5px gray;
+  
 }
+
+.pagination__item:hover {
+  color: gray;
+  background-color: #a0f3bf;
+}
+
+.pagination__item:focus {
+  outline: none;
+}
+
+.pagination__item.active {
+  color: white;
+  background-color: royalblue;
+}
+
+  

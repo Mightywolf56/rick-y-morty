@@ -1,8 +1,9 @@
 import React from 'react'
+import "./style/Header.css"
 
 const Header = () => {
   return (
-    <div>
+    <div className='header'>
         <img src="/HeaderImage.jpg" alt="" className='headerImage__' />
     </div>
   )

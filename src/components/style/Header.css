@@ -1,0 +1,25 @@
+.header {
+    text-align: center;
+  }
+  
+  .headerImage__ {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  
+ 
+  @media (min-width: 320px) {
+    .headerImage__ {
+      max-width: 100%; 
+    }
+  }
+  
+  
+  @media (max-width: 100%) {
+    .headerImage__ {
+      max-width: 500px;
+    }
+  }
+  
+  

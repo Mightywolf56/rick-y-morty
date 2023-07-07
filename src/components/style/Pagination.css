@@ -5,7 +5,7 @@
 
 .pagination__list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 15px;
   padding: 15px;
   list-style: none;
@@ -14,13 +14,18 @@
 
 .pagination__item {
   color: aliceblue;
-  font-size: 20px;
+  font-size: 25px;
   cursor: pointer;
   padding: 5px 10px;
   background-color: transparent;
   border: solid 0.5px gray;
-  
+  margin-right: 10px;
 }
+
+.pagination__item:last-child {
+  margin-right: 0;
+}
+
 
 .pagination__item:hover {
   color: gray;
@@ -31,9 +36,15 @@
   outline: none;
 }
 
-.pagination__item.active {
-  color: white;
-  background-color: royalblue;
-}
 
+
+@media screen and (max-width: 768px) {
+  .pagination__list {
+    flex-wrap: wrap;
+  }
   
+  .pagination__item {
+    margin: 5px;
+    font-size: 16px;
+  }
+}

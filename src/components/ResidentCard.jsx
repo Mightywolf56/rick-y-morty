@@ -30,7 +30,7 @@ const ResidentCard = ({ residentURL }) => {
           <ul className='residentCard__list'>
             <li className='residentCard__item'><span>Species: </span>{residentInfo?.species}</li>
             <li className='residentCard__item'><span>Origins: </span>{residentInfo?.origin.name}</li>
-            <li className='residentCard__item'><span>Episode where appears: </span>{residentInfo?.episode.length}</li>
+            <li className='residentCard__item'><span>Episodes where appears: </span>{residentInfo?.episode.length}</li>
           </ul>
         </section>
 
